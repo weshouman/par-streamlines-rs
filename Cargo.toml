@@ -1,0 +1,25 @@
+[package]
+name = "par-streamlines"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+authors = ["par-streamlines-rs contributors"]
+description = "Pure Rust tessellation of wide polylines, Bezier curves, and vector-field streamlines"
+license = "MIT"
+readme = "README.md"
+keywords = ["geometry", "tessellation", "bezier", "streamlines", "graphics"]
+categories = ["graphics", "rendering::data-formats", "mathematics"]
+exclude = [".github/", "CHANGELOG.md", "CONTRIBUTING.md"]
+
+[lib]
+name = "par_streamlines"
+path = "src/lib.rs"
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
+[features]
+default = []
+
+[dependencies]

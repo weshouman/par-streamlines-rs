@@ -1,0 +1,9 @@
+This project is a Rust port derived from par_streamlines.h:
+https://github.com/prideout/par/blob/30f2c72cbf4568401e3175b0755af4cdaa66f692/par_streamlines.h
+
+Original work:
+  Copyright (c) 2019 Philip Rideout
+  Licensed under the MIT License.
+
+The Rust API, error handling, deterministic random-offset behavior, tests,
+examples, documentation, and automation are additions made for this port.
